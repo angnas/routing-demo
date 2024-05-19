@@ -1,5 +1,11 @@
-import React from "react";
+import Link from "next/link";
 
-export default function page() {
-  return <h1>welcome home </h1>;
+export default function Home() {
+  return (
+    <>
+      <h1>welcome home </h1>
+      <Link href="/blog">Blog</Link>
+      <Link href="/product">Product</Link>
+    </>
+  );
 }
