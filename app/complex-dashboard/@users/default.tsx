@@ -1,9 +1,9 @@
 import Card from "@/app/components/card";
 
-export default function Users() {
+export default function DefaultUsersAnalytics() {
   return (
     <Card>
-      <div>Users</div>
+      <div>User Analytics</div>
     </Card>
   );
 }

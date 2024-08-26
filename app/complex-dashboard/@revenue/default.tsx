@@ -1,9 +1,9 @@
 import Card from "@/app/components/card";
 
-export default function Users() {
+export default function DefaultRevenue() {
   return (
     <Card>
-      <div>Users</div>
+      <div>Default Revenue</div>
     </Card>
   );
 }
